@@ -1,0 +1,19 @@
+=begin
+// 网络请求第三方
+    pod 'Aloamofire', '~>4.5'
+   // JSON 解析
+   pod 'SwiftyJSON'
+// 进度提示
+   pod 'MBProgressHUD'
+=end
+
+platform :ios,'9.0'
+
+target 'SwiftProject' do
+  pod 'Alamofire', '~>4.5'
+  pod 'SwiftyJSON'
+  pod 'MBProgressHUD'
+end
+
+use_frameworks!
+
